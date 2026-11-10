@@ -1,0 +1,60 @@
+{
+  "name": "klaq",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Klaq: make and edit videos with Claude Code. Remotion engine, talking-head edit pipeline, synthesized scores.",
+  "scripts": {
+    "registry": "tsx src/scripts/registry.ts",
+    "new": "tsx src/scripts/new.ts",
+    "prestudio": "tsx src/scripts/registry.ts",
+    "studio": "remotion studio",
+    "prerender": "tsx src/scripts/registry.ts",
+    "render": "tsx src/scripts/render.ts",
+    "prestills": "tsx src/scripts/registry.ts",
+    "stills": "tsx src/scripts/stills.ts",
+    "preedit": "tsx src/scripts/registry.ts",
+    "edit": "tsx src/scripts/edit/cli.ts",
+    "tts": "tsx src/scripts/tts.ts",
+    "pull-docs": "tsx src/scripts/pull-docs.ts",
+    "docs-update": "tsx src/scripts/docs-update.ts",
+    "remocn": "tsx src/scripts/remocn-add.ts",
+    "prebuild": "tsx src/scripts/registry.ts",
+    "build": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.540",
+    "@remotion/captions": "4.0.540",
+    "@remotion/cli": "4.0.540",
+    "@remotion/effects": "4.0.540",
+    "@remotion/fonts": "4.0.540",
+    "@remotion/google-fonts": "4.0.540",
+    "@remotion/layout-utils": "4.0.540",
+    "@remotion/media": "4.0.540",
+    "@remotion/media-utils": "4.0.540",
+    "@remotion/motion-blur": "4.0.540",
+    "@remotion/noise": "4.0.540",
+    "@remotion/paths": "4.0.540",
+    "@remotion/player": "4.0.540",
+    "@remotion/renderer": "4.0.540",
+    "@remotion/transitions": "4.0.540",
+    "culori": "^4.0.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "remotion": "4.0.540",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "@types/culori": "^4.0.1",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "cheerio": "^1.2.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  },
+  "packageManager": "pnpm@9.15.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LeoTexx/klaq.git"
+  }
+}

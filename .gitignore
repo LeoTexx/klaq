@@ -1,0 +1,22 @@
+# Klaq tracks only the engine. Everything you make stays out of git.
+projects/*
+!projects/README.md
+public/projects/
+src/projects.generated.ts
+work/
+out/
+docs/remotion/
+docs/remotion-changes/
+docs/.remotion-new/
+docs/.remotion-prev/
+
+# secrets
+.env
+
+node_modules/
+dist/
+.DS_Store
+*.tsbuildinfo
+
+# example assets fetched or generated locally (launch film: Pexels clip, stills, score)
+public/examples/

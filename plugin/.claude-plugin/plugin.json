@@ -1,0 +1,10 @@
+{
+  "name": "klaq",
+  "version": "0.1.0",
+  "description": "Videos from code, made by Claude: motion graphics, launch films, Reels, synthesized scores, and edits of your raw talking-head recordings. Runs on Remotion.",
+  "author": { "name": "LeoTexx", "url": "https://github.com/LeoTexx" },
+  "homepage": "https://github.com/LeoTexx/klaq",
+  "repository": "https://github.com/LeoTexx/klaq",
+  "license": "MIT",
+  "keywords": ["video", "remotion", "motion-graphics", "reels", "editing", "captions"]
+}

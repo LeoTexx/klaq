@@ -1,0 +1,13 @@
+{
+  "name": "klaq",
+  "owner": { "name": "LeoTexx" },
+  "metadata": { "description": "Klaq: make and edit videos with Claude Code." },
+  "plugins": [
+    {
+      "name": "klaq",
+      "source": "./plugin",
+      "description": "Videos from code, made by Claude: motion graphics, launch films, Reels, synthesized scores, and edits of your raw talking-head recordings. Runs on Remotion.",
+      "category": "media"
+    }
+  ]
+}
