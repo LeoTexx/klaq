@@ -18,9 +18,10 @@
 
 ## The launch film
 
+https://github.com/user-attachments/assets/7326afa7-95b0-4974-a2bd-67ad6d65ee48
+
 <p align="center">
-  <a href="assets/klaq-launch.mp4"><img src="assets/launch-poster.jpg" alt="Watch the Klaq launch film (48 s)" width="85%"></a><br>
-  <sub><a href="assets/klaq-launch.mp4"><b>▶ Watch the launch film</b></a> · 48 s · 1080p60 · made with Klaq from one prompt, source in <a href="src/compositions/launch"><code>src/compositions/launch</code></a></sub>
+  <sub>48 s · 1080p60 · sound on · made with Klaq from one prompt, source in <a href="src/compositions/launch"><code>src/compositions/launch</code></a> · <a href="assets/klaq-launch.mp4">download the MP4</a></sub>
 </p>
 
 Everything in it came out of Klaq: the picture is React, the score is synthesized from the same timeline, every act was checked as stills before the render, and the mix is measured at −14 LUFS.
